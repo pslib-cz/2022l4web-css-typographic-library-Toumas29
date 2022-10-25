@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.nav__name a{
+    font-size: 40px;
+}
