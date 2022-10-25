@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root{
+    --red:#c5043a;
+    --white:#fff;
+    --gray:#404040	;
+    --white-shade:#F5F5F5;	
+}
+body{
+    font-family:'Roboto Mono', monospace; ;
+}
+/* nav */
+.nav{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+/* headings */
+.headings__text{
+    font-weight: 300;
+    color:var(--gray)
+}
+h1{
+    margin: 0em 0em 0.4em 0em;
+}
+.headings__h1{
+    font-size: 32px;
+    margin: 0em 0em 0.4em 0em;
+    font-weight: 600;
+}
+h2{
+    font-size: 28px;
+    margin: 0em 0em 0.4em 0em;
+    font-weight: 400;
+}
+h3{
+    font-size: 24px;
+    margin: 0em 0em 0.4em 0em;
+    font-weight: 400;
+}
+h4{
+    font-size: 20px;
+    margin: 0em 0em 0.4em 0em;
+    font-weight: 300;
+}
+h5{
+    font-size: 19px;
+    margin: 0em 0em 0.4em 0em;
+    font-weight: 300;
+}
+h6{
+    font-size: 18px;
+    margin: 0em 0em 0.4em 0em;
+    font-weight: 300;
+}
+.headings span{
+    font-weight: 100;
+    margin-left: 0.5em;
+    color:var(--gray)
+}
+/* lists */
+.lists ul{
+    list-style:disc;
+}
+ul > li{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom:3px;
+}
+ul{
+    padding-left: 40px;
+}
+ol{
+    list-style: decimal-leading-zero;
+}
+ol{
+    padding-left: 60px;
+}
+ol >li{
+    padding-top: 10px;
+}
+/* table */
+table{
+    border-collapse: collapse;
+}
+td,
+th{
+    border: solid #E31837 0.001em;
+    text-align: left;
+    padding: 0.2em;
+}
+th{
+    background-color: var(--white-shade);
+    color: black;
+    text-align: center;
+}
+/* Gallery */
+.pictures__block{
+    margin-left: 0px;
+}

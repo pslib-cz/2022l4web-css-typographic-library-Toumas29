@@ -22,4 +22,11 @@ img{
     padding-bottom: 1em;
     padding-left: 3em;
     padding-right: 2em;
+    color: var(--white-shade);
+}
+.section--white{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 2em;
 }
