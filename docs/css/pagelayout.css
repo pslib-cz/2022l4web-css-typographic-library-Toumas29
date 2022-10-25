@@ -6,4 +6,20 @@ img{
 }
 .nav__name a{
     font-size: 40px;
+   text-decoration: none;
+    color: var(--white);
+}
+.nav__container__menu li a{
+    color:var(--white);
+}
+.welcome{
+    padding:200px 80px 100px 80px ;
+    position: relative;
+}
+.section--red{
+    background-color: var(--red);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 2em;
 }
