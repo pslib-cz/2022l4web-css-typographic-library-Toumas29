@@ -8,13 +8,16 @@
 body{
     font-family:'Roboto Mono', monospace; ;
 }
+
 /* nav */
+
 .nav{
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
 }
 
 /* headings */
+
 .headings__text{
     font-weight: 300;
     color:var(--gray)
@@ -57,7 +60,9 @@ h6{
     margin-left: 0.5em;
     color:var(--gray)
 }
+
 /* lists */
+
 .lists ul{
     list-style:disc;
 }
@@ -78,7 +83,9 @@ ol{
 ol >li{
     padding-top: 10px;
 }
+
 /* table */
+
 table{
     border-collapse: collapse;
 }
@@ -93,7 +100,95 @@ th{
     color: black;
     text-align: center;
 }
+
 /* Gallery */
+
 .pictures__block{
-    margin-left: 0px;
+    margin: 0px;
+}
+.pictures__block {
+    overflow: hidden;
+    position: relative;
+    max-width: 650px;
+}
+.pictures__block a{
+    position: relative;
+}
+figcaption{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    bottom: 0.3em;
+    color: var(--white);
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    font-weight: 600;
+}
+.pictures__block:hover figcaption{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+/* media queries */
+@media screen and (min-width:926px){
+    .section--white{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 10em;
+        padding-right: 2em;
+    }
+    .section--red{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 10em;
+        padding-right: 2em;
+    }
+    .welcome{
+        padding-left: 10em;
+        padding-right: 2em;
+    }
+}
+@media screen and (min-width:1148px){
+    .section--white{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 15em;
+        padding-right: 2em;
+    }
+    .section--red{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 15em;
+        padding-right: 2em;
+    }
+    .welcome{
+        padding-left: 15em;
+        padding-right: 2em;
+    }
+}
+@media screen and (min-width:1326px){
+.section--white{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 22em;
+    padding-right: 2em;
+}
+.section--red{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 22em;
+    padding-right: 2em;
+}
+.welcome{
+    padding-left: 22em;
+    padding-right: 2em;
+}
+}
+@media screen and (min-width:1500px){
+    .pictures__gallery{
+        display: flex;
+    }
+    .pictures__gallery img{
+        max-width: 350px;
+    }
 }

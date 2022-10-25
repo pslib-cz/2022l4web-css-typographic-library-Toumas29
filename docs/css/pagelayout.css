@@ -3,6 +3,7 @@ body{
 }
 img{
     width: 100%;
+    height: auto;
 }
 .nav__name a{
     font-size: 40px;
@@ -28,5 +29,19 @@ img{
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 3em;
-    padding-right: 2em;
+    padding-right: 3em;
+}
+
+.welcome p{
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: var(--red);
+    text-align: left;
+    border: 2px solid var(--red);
+    font-size: 1em;
+    color: var(--white);
 }
