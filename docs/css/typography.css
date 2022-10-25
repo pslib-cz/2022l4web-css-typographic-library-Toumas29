@@ -191,4 +191,8 @@ figcaption{
     .pictures__gallery img{
         max-width: 350px;
     }
+    header{
+        padding-left:15em;
+        padding-right:15em ;
+    }
 }
