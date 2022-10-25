@@ -3,26 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="paygelayout.css">
-    <link rel="stylesheet" href="typography.css">
+    <meta name="author" content="codents">
+    <link rel="stylesheet" href="./css/pagelayout.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/hamburger.css"> 
     <title>Toumas CSS</title>
 </head>
 <body>
     <header>
-        <nav class="header__nav">
-            <div class="header__nav__name">
-                Toumas CSS
+        <nav class="nav">
+            <div class="nav__name">
+                <a href="index.html">Toumas CSS</a>
             </div>
-            <ul class="header__nav__list">
-                <li>Headings</li>
-                <li>Text</li>
-                <li>Lists</li>
-                <li>Table</li>
-                <li>Alerts</li>
-                <li>Buttons</li>
-                <li>Gallery</li>
-                <li>Code</li>
-            </ul>
+            <div class="nav__container">
+
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+
+                <ul class="nav__container__menu">
+                    <li>
+                        <a href="#">Headings</a>
+                    </li>
+                    <li>
+                        <a href="#">Lists</a>
+                    </li>
+                    <li>
+                        <a href="#">Table</a>
+                    </li>
+                    <li>
+                        <a href="#">Gallery</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -118,7 +130,7 @@
     </table>
   </section>
   <section class="pictures">
-      <h2>Picture styles</h2>
+      <h2>Gallery</h2>
       <p></p>
       <h3>Single Picture</h3>
       <figure class="pictures__block">
@@ -151,6 +163,9 @@
   </section>
 
     </main>
-    <footer></footer>
+    <footer>
+        <p>This website was  created as an school project</p>
+        <div></div>
+    </footer>
 </body>
 </html>
