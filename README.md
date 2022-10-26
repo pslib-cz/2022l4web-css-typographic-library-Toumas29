@@ -11,7 +11,7 @@ This website was created for easy css aplication on your html codes. It contains
 4. [Table](#Table)
 5. [PictureGallery](#PictureGallery)
 ## Implementation
-1.
+1.Download css file **[Toumas.css] (https://github.com/pslib-cz/2022l4web-css-typographic-library-Toumas29/blob/master/docs/css/typography.css)**
 ## Headings
 ## Lists
 ## Table
