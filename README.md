@@ -55,4 +55,40 @@ U can use up to 6 headings with size and weight changes(all mobile first ready):
     </ol>
 ```
 ## Table
+We are using tags tr, th, td when making using table. Table is made of tag table, which is divided into tr(row), then cells th,td.
+### Table example
+```html
+<table class="table__data">
+        <tr>
+            <th>Player</th>
+            <th>Place of birth</th>
+            <th>Tour wins</th>
+            <th>Major wins</th>
+        </tr>
+        <tr>
+            <td>Tiger Woods</td>
+            <td>USA</td>
+            <td>82</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Jack Nicklaus</td>
+            <td>USA</td>
+            <td>73</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Rory McIlroy</td>
+            <td>NIR</td>
+            <td>22</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Lukáš Martínek</td>
+            <td>CZE</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </table>v
+```
 ## Picture Gallery
