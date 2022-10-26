@@ -126,3 +126,4 @@ If you have more than one picture use this gallery:
       </figure>
     </div>
 ```
+That´s all, thanks for reading and have a nice day!
