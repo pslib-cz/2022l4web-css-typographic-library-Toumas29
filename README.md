@@ -9,7 +9,7 @@ This website was created for easy css aplication on your html codes. It contains
 2. [Headings](#Headings)
 3. [Lists](#Lists)
 4. [Table](#Table)
-5. [PictureGallery](#PictureGallery)
+5. [PictureGallery](#PictureGgallery)
 ## Implementation
 1. Download CSS file **[typography.css](https://github.com/pslib-cz/2022l4web-css-typographic-library-Toumas29/blob/master/docs/css/typography.css)**.
 2. Insert downloaded file in your project.
@@ -89,6 +89,40 @@ We are using tags tr, th, td when making using table. Table is made of tag table
             <td>0</td>
             <td>0</td>
         </tr>
-    </table>v
+    </table>
 ```
-## Picture Gallery
+## Picture gallery
+### Single picture
+If you have only one picture use this gallery:
+```html
+<figure class="pictures__block">
+       <a href="./foto/USATSI_18684237-1-e1661112368436.jpg">
+        <img src="./foto/USATSI_18684237-1-e1661112368436.jpg">
+        <figcaption>The golf goats</figcaption>
+    </a>
+      </figure>
+```
+### Multiple pictures
+If you have more than one picture use this gallery:
+```html
+   <div class="pictures__gallery">
+      <figure class="pictures__block">
+        <a href="./foto/ronaldo1.jpg">
+            <img src="./foto/ronaldo1.jpg">
+            <figcaption>CR7</figcaption>
+        </a>
+        </figure>
+        <figure class="pictures__block">
+        <a href="./foto/ronaldo2.jpg">
+            <img src="./foto/ronaldo2.jpg">
+            <figcaption>Suiiiii</figcaption>
+        </a>
+        </figure>
+        <figure class="pictures__block">
+        <a href="./foto/ronaldo3.jpg">
+            <img src="./foto/ronaldo3.jpg">
+            <figcaption>CR7 with Antony</figcaption>
+        </a>
+      </figure>
+    </div>
+```
