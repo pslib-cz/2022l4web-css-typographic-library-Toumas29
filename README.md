@@ -9,7 +9,7 @@ This website was created for easy css aplication on your html codes. It contains
 2. [Headings](#Headings)
 3. [Lists](#Lists)
 4. [Table](#Table)
-5. [Picture Gallery](#Picture Gallery)
+5. [PictureGallery](#PictureGallery)
 ## Implementation
 1.
 ## Headings
