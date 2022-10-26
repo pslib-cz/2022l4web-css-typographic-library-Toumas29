@@ -7,11 +7,9 @@ This website was created for easy css aplication on your html codes. It contains
 ## Summary 
 1. [Implementation](#Implementation)
 2. [Headings](#Headings)
-3. [Types of text](#Text)
-4. [Lists](#Lists)
-5. [Table](#Table)
-6. [Buttons](#Buttons)
-7. [Images](#Images)
+3. [Lists](#Lists)
+4. [Table](#Table)
+5. [Picture Gallery](#Picture Gallery)
 ## Implementation
 1.
 ## Headings
