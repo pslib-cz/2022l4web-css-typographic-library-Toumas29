@@ -11,8 +11,18 @@ This website was created for easy css aplication on your html codes. It contains
 4. [Table](#Table)
 5. [PictureGallery](#PictureGallery)
 ## Implementation
-1.Download css file **[typography.css](https://github.com/pslib-cz/2022l4web-css-typographic-library-Toumas29/blob/master/docs/css/typography.css)**
+1. Download CSS file **[typography.css](https://github.com/pslib-cz/2022l4web-css-typographic-library-Toumas29/blob/master/docs/css/typography.css)**.
+2. Insert downloaded file in your project.
+3. Link downloaded file with HTML.
 ## Headings
+U can use up to 6 headings with size and weight changes(all mobile first ready):
+*  `<h1>` size 32px, weight 600
+*  `<h2>` size 28px, weight 400
+*  `<h3>` size 24px, weight 400
+*  `<h4>` size 20px, weight 300
+*  `<h5>` size 19px, weight 300
+*  `<h5>` size 18px, weight 300
 ## Lists
+
 ## Table
 ## Picture Gallery
