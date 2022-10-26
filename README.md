@@ -9,7 +9,7 @@ This website was created for easy css aplication on your html codes. It contains
 2. [Headings](#Headings)
 3. [Lists](#Lists)
 4. [Table](#Table)
-5. [PictureGallery](#PictureGgallery)
+5. [Pictures](#Pictures)
 ## Implementation
 1. Download CSS file **[typography.css](https://github.com/pslib-cz/2022l4web-css-typographic-library-Toumas29/blob/master/docs/css/typography.css)**.
 2. Insert downloaded file in your project.
@@ -91,7 +91,7 @@ We are using tags tr, th, td when making using table. Table is made of tag table
         </tr>
     </table>
 ```
-## Picture gallery
+## Pictures
 ### Single picture
 If you have only one picture use this gallery:
 ```html
